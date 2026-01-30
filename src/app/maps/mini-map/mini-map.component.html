@@ -1,0 +1,14 @@
+<div class="relative h-[calc(100vh-300px)]">
+    @if (isLoading()) {
+    <div class="absolute inset-0 flex flex-col items-center justify-center bg-white/90 z-10">
+        <div class="w-10 h-10 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+        <p class="text-gray-700 mt-3 font-medium">Loading map...</p>
+    </div>
+    }
+
+    <div #miniMap id="miniMap" class="w-full h-full"></div>
+</div>
+
+<section>
+    <!-- Tu contenido adicional -->
+</section>
