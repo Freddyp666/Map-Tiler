@@ -1,66 +1,112 @@
-# MapsApp
+# 🗺️ Angular MapTiler – Visor de Mapas Interactivo
 
-start project
-1. Clone repository
-2. Install dependence
-3. Generate .env based in the enc.template
-4. execute the comamat 'npm run set-envs'
+Proyecto desarrollado con **Angular** que integra **MapTiler** para mostrar mapas en **pantalla completa**, permitir **marcar ubicaciones**, **guardar mapas** y **visualizarlos posteriormente**.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Este proyecto fue creado como parte de mi portafolio para demostrar el uso de mapas interactivos, manejo de estado y buenas prácticas en Angular.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🌐 Demo en vivo
 
-```bash
-ng serve
-```
+👉 **Ver aplicación desplegada en Netlify:**
+[https://map-exploration.netlify.app/#/fullscreen](https://map-exploration.netlify.app/#/fullscreen)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Características principales
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* 🖥️ **Mapa en pantalla completa**
+* 📍 **Marcadores personalizados** sobre el mapa
+* 💾 **Guardado de mapas / ubicaciones**
+* 🗂️ **Listado y visualización de mapas guardados**
+* 🎨 Interfaz moderna y responsiva
+* ⚡ Integración con **MapTiler SDK**
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Tecnologías utilizadas
 
-```bash
-ng generate --help
-```
+* **Angular**
+* **TypeScript**
+* **MapTiler SDK**
+* **HTML5 / CSS3**
+* **Tailwind CSS** (si aplica)
 
-## Building
+---
 
-To build the project run:
+## 📸 Funcionalidades
 
-```bash
-ng build
-```
+### 🔹 Vista principal del mapa
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* Mapa cargado en pantalla completa
+* Navegación fluida (zoom, desplazamiento)
 
-## Running unit tests
+### 🔹 Marcado de ubicaciones
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+* Posibilidad de agregar marcadores al hacer clic en el mapa
+* Cada marcador representa una ubicación guardada
 
-```bash
-ng test
-```
+### 🔹 Mapas guardados
 
-## Running end-to-end tests
+* Persistencia de mapas creados
+* Visualización de mapas previamente guardados
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## ⚙️ Instalación y ejecución
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+1. Clonar el repositorio
+2. Instalar dependencias:
 
-## Additional Resources
+   ```bash
+   npm install
+   ```
+3. Ejecutar el proyecto:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Map-Tiler
+   ```bash
+   ng serve
+   ```
+4. Abrir en el navegador:
+
+   ```
+   http://localhost:4200
+   ```
+
+---
+
+## 🔑 Configuración de MapTiler
+
+Para utilizar MapTiler es necesario contar con una **API Key**:
+
+1. Crear una cuenta en [MapTiler](https://www.maptiler.com/)
+2. Obtener tu API Key
+3. Configurarla en el proyecto (environment o servicio correspondiente)
+
+---
+
+## 📂 Estructura del proyecto
+
+* `components/` → Componentes del mapa y UI
+* `services/` → Servicios para manejo del mapa y datos
+* `models/` → Interfaces y modelos
+* `pages/` → Vistas principales
+
+---
+
+## 👨‍💻 Autor
+
+**Fredy Pallo**
+Ingeniero de Software
+Apasionado por el desarrollo frontend con Angular y aplicaciones interactivas.
+
+* LinkedIn: [Perfil](https://www.linkedin.com/in/fredy-pallo-184024272/)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso libre para fines educativos y demostrativos.
+
+---
+
+✨ *Gracias por visitar este proyecto. Si te gusta, no olvides dejar una estrella ⭐*
